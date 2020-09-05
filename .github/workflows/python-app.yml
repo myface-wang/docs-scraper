@@ -35,7 +35,7 @@ jobs:
       env:
         HOST_URL: http://bangnitry.club:8082
         API_KEY: Y0urVery-S3cureAp1K3y
-        CONFIG_FILE_PATH: myconfig.json
+        CONFIG_FILE_PATH: config.json
       run: |
         docker run -t --rm \
           -e MEILISEARCH_HOST_URL=$HOST_URL \
